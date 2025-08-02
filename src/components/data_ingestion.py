@@ -9,7 +9,7 @@ from dataclasses import dataclass
 
 from src.components.data_transformation import DataTransformation,DataTransformationConfig
 
-from src.components.model_trainer import ModeltrainerConfig,ModelTrainer
+from src.components.model_trainer import ModelTrainerConfig,ModelTrainer
 
 @dataclass
 class DataIngestionConfig:
